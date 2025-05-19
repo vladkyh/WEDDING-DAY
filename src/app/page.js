@@ -232,9 +232,9 @@ export default function Home() {
                         </div>
                     </AnimatedElement>
 
-                    <AnimatedElement delay={0.2}>
+                    {/*<AnimatedElement delay={0.2}>*/}
                         <div className={styles.cheliki}></div>
-                    </AnimatedElement>
+                    {/*</AnimatedElement>*/}
                 </div>
             </div>
         </div>

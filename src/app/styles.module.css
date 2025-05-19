@@ -228,6 +228,17 @@ position: relative;
     padding-top: 55vh;
 
 }
+.footer_df{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 52vh;
+    aspect-ratio: 2015/267;
+
+    background-image: url("./))/Group 16.png");
+    background-position: center top ;
+    background-size: cover;
+}
 .date{
     width: 20vw;
     height: auto;
@@ -353,6 +364,7 @@ position: relative;
     text-align: left;
 }
 .footer{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -461,7 +473,17 @@ display: flex;
         margin-left: 40px;
         font-size: 28px;
     }
+    .footer_df{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 36vh;
+        aspect-ratio: 2015/267;
 
+        background-image: url("./))/Group 16.png");
+        background-position: center top ;
+        /*background-size: 100% 100%;*/
+    }
     .carouselContainer {
         /*aspect-ratio: 4/3;*/
     }
@@ -536,6 +558,17 @@ display: flex;
         margin-left: 20px;
         font-size: 24px;
         line-height: 32px;
+    }
+    .footer_df{
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 36vh;
+        aspect-ratio: 2015/267;
+
+        background-image: url("./))/Group 16.png");
+        background-position: center top ;
+        background-size: cover;
     }
 
     .carouselContainer {
