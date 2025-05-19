@@ -1,0 +1,742 @@
+.hero{
+    background-image: url("./))/Group 38.png");
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center -300px;
+    position: relative;
+    height: 100vh;
+}
+
+.h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 100px;
+    padding-top: 50px;
+    font-weight: 100;
+    line-height: 102.72%;
+    text-align: center;
+}
+.h3{
+    color: rgb(255, 255, 255);
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 88px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.convert{
+    position: absolute;
+    right: 50%;
+    bottom: 0;
+    transform: translateX(50%);
+
+    background-position: center;
+    background-image: url("./))/Group 12.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+    width: 28vw;
+    aspect-ratio: 1/1;
+}
+.conv{
+    position: absolute;
+    bottom: -4px;
+    width: 100%;
+
+    height: auto;
+    aspect-ratio: 1982/172;
+    content: '';
+
+    background-image: url("./))/Group 22.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.place{
+
+}
+.mesto{
+    margin-left: 89px;
+    color: rgb(38, 38, 38);
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.sun{
+    color: rgb(0, 0, 0);
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: left;
+
+}
+
+
+
+/* Стили для блока места проведения */
+.place {
+    text-align: center;
+
+}
+
+.mesto {
+    font-size: 1.5rem;
+    color: #555;
+
+}
+
+.sun {
+    font-size: 4rem;
+    margin: 0.5rem 0 2rem;
+    margin-left: 89px;
+
+}
+
+/* Стили карусели */
+.carouselContainer {
+    position: relative;
+    width: 100%;
+    /*max-width: 800px;*/
+    margin: 0 auto;
+    height: auto;
+    overflow: hidden;
+    aspect-ratio: 1920/895;
+}
+
+.carousel {
+    display: flex;
+    height: auto;
+    overflow: hidden;
+    aspect-ratio: 1920/895;
+    transition: transform 0.5s ease;
+
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.arrowButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background:  linear-gradient(180.00deg, rgb(255, 255, 255),rgb(153, 153, 153) 100%);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 2rem;
+    z-index: 10;
+    transition: all 0.3s;
+    width: 50px;
+    width: 50px;
+    height: 50px;
+    height: 50px;
+}
+
+.arrowButton:hover {
+    filter: brightness(1.1);
+}
+
+.liaas{
+    margin-left: 89px;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 10vh;
+}
+.asdas{
+    color: rgb(0, 0, 0);
+    font-family: 'NT Somic';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.qqq{
+    color: rgb(135, 154, 97);
+    font-family: NT Somic;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-left: 45px;
+}
+.prog{
+background-image: url("./))/Group 40.png");
+    background-position: center top ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    /*height: 80vh;*/
+    height: auto;
+position: relative;
+    z-index: 1;
+    padding-bottom: 50vh;
+}
+.prog::after{
+
+}
+.bg_top{
+    background-image: url("./))/Group 23.png");
+    background-position: center top ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*transform: rotate(180deg);*/
+    width: 100%;
+    height: 25vh;
+    position: absolute;
+    top: -10vh;
+    z-index: 2;
+
+}
+.bg_bottom{
+    background-image: url("./))/Group 11.png");
+    background-position: center top ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*transform: rotate(180deg);*/
+    width: 100%;
+    height: 25vh;
+    position: absolute;
+    bottom: -8vh;
+    z-index: 2;
+}
+.df{
+    position: relative;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -6%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 40vw;
+    position: relative;
+    z-index: 3;
+    padding-top: 55vh;
+
+}
+.date{
+    width: 20vw;
+    height: auto;
+    background-image: url("./))/20.png");
+    background-repeat: no-repeat;
+    background-size: 100%   ;
+    background-position: center top ;
+
+    aspect-ratio: 397/464;
+}
+.programm{
+    width: 31vw;
+    height: auto;
+    background-image: url("./))/prog.png");
+    background-repeat: no-repeat;
+    background-size: 100%   ;
+    background-position: center top ;
+    margin-left: 137px;
+
+    aspect-ratio: 800/575;
+}
+.dress{
+    margin-top:10vh;
+    position: relative;
+    z-index: 3;
+
+}
+.dress_h1{
+    color: rgb(0, 0, 0);
+    font-family: Source Serif 4;
+    font-size: 128px;
+    font-weight: 400;
+    line-height: 175px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 78px;
+    margin-bottom: 41px;
+}
+.text_df{
+    display: flex;
+    align-items: center;
+    margin-left: 78px;
+    margin-top: 40px;
+}
+.text_df {
+    display: flex;         /* Делаем контейнер flex */
+    justify-content: space-between; /* Распределяем блоки по ширине */
+    gap: 40px;            /* Отступ между блоками */
+    align-items: flex-start; /* Выравниваем по верхнему краю */
+}
+
+/* Блок "Пожелания" */
+.wishes_block {
+    flex: 1;              /* Занимает доступное пространство */
+}
+
+/* Блок "Контакты" */
+.contacts_block {
+    flex: 1;              /* Занимает доступное пространство */
+}
+
+.text_dff {
+    display: flex;
+    align-items: start;
+    gap: 20px;            /* Отступ между текстовыми блоками */
+}
+
+.dress_h2 {
+    color: rgb(0, 0, 0);
+    font-family: 'Source Serif 4';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 20px;  /* Отступ после заголовка */
+}
+
+.dress_please {
+    max-width: 300px;
+    color: rgb(0, 0, 0);
+    font-family: NT Somic;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 137.65%;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-right: 78px;
+}
+
+.else {
+    max-width: 400px;
+    color: rgb(0, 0, 0);
+    font-family: NT Somic;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 137.65%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.dresslink {
+    color: rgb(132, 152, 93);
+    font-family: NT Somic;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    margin-right: 15px;   /* Отступ между ссылками */
+    margin-top: 28px;
+
+}
+.sfvzx{
+    max-width: 400px;
+    color: rgb(0, 0, 0);
+    font-family: NT Somic;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 137.65%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-image: url("./))/Group 39.png");
+    background-repeat: no-repeat;
+    background-size: 150% 150%;
+    background-position: center 200px;
+    padding-top: 10vh;
+
+}
+.footdf{
+display: flex;
+    align-items: center;
+    padding-top: 30vh;
+    gap: 10vw;
+    padding-bottom: 20vh;
+}
+.footer_h1{
+    color: rgb(255, 255, 255);
+    font-family: NT Somic;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.footer_h4{
+    color: rgb(255, 255, 255);
+    font-family: NT Somic;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.footer_h2{
+    color: rgb(255, 255, 255);
+    font-family: NT Somic;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer_h3{
+    color: rgb(255, 255, 255);
+    font-family: NT Somic;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.footer_time{
+    color: rgb(255, 255, 255);
+    font-family: NT Somic;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.mbbs{
+
+}
+.cheliki{
+    width: 527px;
+    height: auto;
+    aspect-ratio: 527/630;
+    background-image: url("))/chel.png");
+    background-size: 100%;
+    background-position: center top ;
+    background-repeat: no-repeat;
+}
+
+
+/* Добавьте это в конец вашего файла styles.module.css */
+
+/* Медиазапросы для адаптации под мобильные устройства */
+@media (max-width: 1024px) {
+    .h1 {
+        font-size: 72px;
+        padding-top: 30px;
+    }
+
+    .h3 {
+        font-size: 24px;
+        line-height: 60px;
+    }
+
+    .convert {
+        width: 35vw;
+    }
+
+    .sun {
+        font-size: 96px;
+        margin-left: 40px;
+    }
+
+    .mesto {
+        margin-left: 40px;
+        font-size: 28px;
+    }
+
+    .carouselContainer {
+        /*aspect-ratio: 4/3;*/
+    }
+
+    .arrowButton {
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .liaas {
+        margin-left: 40px;
+    }
+
+    .dress_h1 {
+        font-size: 96px;
+        margin-left: 40px;
+        line-height: 120px;
+    }
+
+    .text_df {
+        margin-left: 40px;
+        flex-direction: column;
+    }
+
+    .dress_please, .else, .sfvzx {
+        font-size: 20px;
+    }
+
+    .dress_h2 {
+        font-size: 48px;
+    }
+
+    .footdf {
+        flex-direction: column;
+        gap: 5vh;
+        padding-top:26vh;
+    }
+
+    .cheliki {
+        width: 147%;
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        background-size: 200% 200%;
+        background-position: center -150px;
+    }
+
+    .h1 {
+        font-size: 84px;
+        padding-top: 50px;
+    }
+
+    .h3 {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .convert {
+        width: 450px;
+    }
+
+    .sun {
+        font-size: 64px;
+        margin-left: 20px;
+    }
+
+    .mesto {
+        margin-left: 20px;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .carouselContainer {
+        /*aspect-ratio: 3/4;*/
+    }
+
+    .arrowButton {
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+    }
+
+    .liaas {
+        margin-left: 20px;
+    }
+
+    .asdas, .qqq {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .dress_h1 {
+        font-size: 64px;
+        margin-left: 20px;
+        line-height: 80px;
+        margin-bottom: 20px;
+    }
+
+    .text_df {
+        margin-left: 20px;
+        gap: 30px;
+    }
+
+    .dress_please, .else, .sfvzx {
+        font-size: 16px;
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .dress_h2 {
+        font-size: 36px;
+    }
+
+    .dresslink {
+        font-size: 18px;
+        line-height: 24px;
+        margin-top: 15px;
+    }
+
+    .footer_h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .footer_h4 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .footer_h2 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+
+    .footer_h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .footer_time {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .prog {
+        padding-bottom: 30vh;
+    }
+
+    .df {
+        flex-direction: column;
+        padding-top: 72vh;
+        transform: translate(50%, -10%);
+    }
+
+    .date, .programm {
+        width: 295px;
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    .prog{
+        padding-bottom: 58vh;
+    }
+    .bg_top{
+        height: 14vh;
+    }
+    .bg_bottom{
+        height: 12vh;
+        position: absolute;
+        bottom: -4vh;
+    }
+
+}
+@media (max-width: 515px) {
+    .text_df{
+        margin-top: -48px;
+    }
+}
+@media (max-width: 480px) {
+    .hero {
+        background-size: 250% 250%;
+        background-position: center -100px;
+    }
+
+    .h1 {
+        font-size: 68px;
+        padding-top: 90px;
+    }
+
+    .h3 {
+        font-size: 26px;
+        line-height: 30px;
+
+    }
+
+    .convert {
+        width: 380px;
+    }
+
+    .sun {
+        font-size: 48px;
+        margin-left: 15px;
+    }
+
+    .mesto {
+        margin-left: 15px;
+        font-size: 20px;
+    }
+
+    .carouselContainer {
+        /*aspect-ratio: 2/3;*/
+    }
+
+    .arrowButton {
+        width: 25px;
+        height: 25px;
+        font-size: 0.8rem;
+    }
+
+    .qqq {
+        margin-left: 15px;
+    }
+
+    .dress_h1 {
+        font-size: 48px;
+        margin-left: 15px;
+        line-height: 60px;
+    }
+
+    .dress_h2 {
+        font-size: 28px;
+    }
+
+    .dresslink {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .text_dff {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer_h1 {
+        font-size: 28px;
+    }
+
+    .footer_h4 {
+        font-size: 16px;
+    }
+
+    .footer_h2 {
+        font-size: 28px;
+    }
+
+    .footer_h3 {
+        font-size: 16px;
+    }
+
+    .footer_time {
+        font-size: 24px;
+    }
+
+    .prog {
+        /*padding-bottom: 20vh;*/
+    }
+
+    .df {
+        /*padding-top: 30vh;*/
+    }
+
+    .date, .programm {
+        /*width: 70vw;*/
+    }
+}

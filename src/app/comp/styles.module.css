@@ -1,0 +1,40 @@
+.container {
+    width: 100%;
+    overflow: hidden; /* Скрываем всё, что выходит за границы */
+    position: relative;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 480px;
+    animation: scroll 50s linear infinite; /* Анимация прокрутки */
+    width: max-content; /* Ширина определяется содержимым */
+}
+
+.li {
+    height: 480px;
+    position: relative;
+    min-width: 180px;
+}
+
+.img {
+    object-fit: contain;
+    height: 100%;
+    width: auto;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Сдвигаем на половину длины дублированного списка */
+    }
+}
+@media (max-width: 768px) {
+    .li{
+        height: 340px;
+    }
+}
