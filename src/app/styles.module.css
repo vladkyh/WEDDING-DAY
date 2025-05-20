@@ -1,5 +1,5 @@
 .hero{
-    background-image: url("./))/Group 38.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2038.png");
     background-repeat: no-repeat;
     background-size: 150% 150%;
     background-position: center -300px;
@@ -33,7 +33,7 @@
     transform: translateX(50%);
 
     background-position: center;
-    background-image: url("./))/конверт дно 2.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/bot.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: auto;
@@ -49,7 +49,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    background-image: url("./))/конверт верх 2.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/top.png");
     content: '';
     width: 100%;
     height: auto;
@@ -60,7 +60,7 @@
 }
 .pis{
     position: absolute;
-    background-image: url("./))/Письмо 2 (1).png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/oisss.png");
     width: 86%;
     height: auto;
     background-size: 100% 100%;
@@ -78,7 +78,7 @@
     aspect-ratio: 1982/172;
     content: '';
 
-    background-image: url("./))/Group 22.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2022.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -204,7 +204,7 @@
     margin-left: 45px;
 }
 .prog{
-background-image: url("./))/Group 40.png");
+background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2040.png");
     background-position: center top ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -219,7 +219,7 @@ position: relative;
 
 }
 .bg_top{
-    background-image: url("./))/Group 23.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2023.png");
     background-position: center top ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -232,7 +232,7 @@ position: relative;
 
 }
 .bg_bottom{
-    background-image: url("./))/Group 11.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2011.png");
     background-position: center top ;
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -265,14 +265,14 @@ position: relative;
     height: 52vh;
     aspect-ratio: 2015/267;
 
-    background-image: url("./))/Group 16.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2016.png");
     background-position: center top ;
     background-size: cover;
 }
 .date{
     width: 20vw;
     height: auto;
-    background-image: url("./))/20.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/20.png");
     background-repeat: no-repeat;
     background-size: 100%   ;
     background-position: center top ;
@@ -282,7 +282,7 @@ position: relative;
 .programm{
     width: 31vw;
     height: auto;
-    background-image: url("./))/prog.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/prog.png");
     background-repeat: no-repeat;
     background-size: 100%   ;
     background-position: center top ;
@@ -399,7 +399,7 @@ position: relative;
     align-items: center;
     justify-content: center;
 
-    background-image: url("./))/Group 39.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2039.png");
     background-repeat: no-repeat;
     background-size: 150% 150%;
     background-position: center 200px;
@@ -470,7 +470,7 @@ display: flex;
     width: 527px;
     height: auto;
     aspect-ratio: 527/630;
-    background-image: url("))/chel.png");
+    background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/chel.png");
     background-size: 100%;
     background-position: center top ;
     background-repeat: no-repeat;
@@ -533,7 +533,7 @@ display: flex;
         height: 36vh;
         aspect-ratio: 2015/267;
 
-        background-image: url("./))/Group 16.png");
+        background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2016.png");
         background-position: center top ;
         /*background-size: 100% 100%;*/
     }
@@ -619,7 +619,7 @@ display: flex;
         height: 36vh;
         aspect-ratio: 2015/267;
 
-        background-image: url("./))/Group 16.png");
+        background-image: url("https://s3.twcstorage.ru/22960ed1-0494b988-242d-4474-9e2b-11eb0cbfd5c4/Group%2016.png");
         background-position: center top ;
         background-size: cover;
     }
