@@ -105,11 +105,11 @@ export default function Home() {
                 </AnimatedElement>
                 <AnimatedElementooooooo delay={0.4}>
                     <div className={styles.convert}>
-                        {/*<div className={styles.pis_qwe}>*/}
+                        <div className={styles.pis_qwe}>
                         <div className={styles.pis}>
 
                         </div>
-                        {/*</div>*/}
+                        </div>
                     </div>
                 </AnimatedElementooooooo>
                 <div className={styles.conv}></div>
