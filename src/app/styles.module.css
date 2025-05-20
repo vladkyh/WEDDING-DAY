@@ -25,6 +25,7 @@
     letter-spacing: 0%;
     text-align: center;
 }
+
 .convert{
     position: absolute;
     right: 50%;
@@ -32,12 +33,41 @@
     transform: translateX(50%);
 
     background-position: center;
-    background-image: url("./))/Group 12.png");
+    background-image: url("./))/конверт дно 2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: auto;
     width: 28vw;
     aspect-ratio: 1/1;
+    overflow: hidden;
+}
+.convert:after, .convert:before{
+    position: absolute;
+    bottom: 0%;
+    right: 50%;
+    transform: translateX(50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("./))/конверт верх 2.png");
+    content: '';
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1025/599;
+}
+.convert:before{
+
+}
+.pis{
+    position: absolute;
+    background-image: url("./))/Письмо 2 (1).png");
+    width: 86%;
+    height: auto;
+    background-size: 100% 100%;
+    bottom: 0%;
+    right: 50%;
+    transform: translateX(50%);
+    aspect-ratio: 864/1025;
 }
 .conv{
     position: absolute;
@@ -674,7 +704,7 @@ display: flex;
 }
 @media (max-width: 515px) {
     .text_df{
-        margin-top: -48px;
+        margin-top: 4px;
     }
 }
 @media (max-width: 480px) {

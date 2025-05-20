@@ -31,7 +31,27 @@ const AnimatedElement = ({ children, delay = 0 }) => {
         </motion.div>
     );
 };
+const AnimatedElementoooooooss = ({ children, delay = 0 }) => {
+    const [ref, inView] = useInView({
+        threshold: 0.2,
+        triggerOnce: true,
+    });
 
+    return (
+        <motion.div
+            ref={ref}
+            initial={{ opacity: 0, bottom: '-200%' }} // Используем строку с '%'
+            animate={{
+                opacity:  1,
+                bottom: '-100%'  // Используем строки с '%'
+            }}
+            transition={{ duration: 0.6, delay }}
+            style={{ position: 'relative' }} // Добавляем position для работы bottom
+        >
+            {children}
+        </motion.div>
+    );
+};
 const AnimatedElementooooooo = ({ children, delay = 0 }) => {
     const [ref, inView] = useInView({
         threshold: 0.2,
@@ -84,7 +104,13 @@ export default function Home() {
                     </h3>
                 </AnimatedElement>
                 <AnimatedElementooooooo delay={0.4}>
-                    <div className={styles.convert}></div>
+                    <div className={styles.convert}>
+                        <AnimatedElementoooooooss delay={1}>
+                        <div className={styles.pis}>
+
+                        </div>
+                        </AnimatedElementoooooooss>
+                    </div>
                 </AnimatedElementooooooo>
                 <div className={styles.conv}></div>
             </div>
