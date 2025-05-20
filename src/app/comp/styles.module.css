@@ -22,14 +22,13 @@
 
 .li {
     flex: 0 0 auto;
-    margin-right: 15px;
     height: 480px;
     user-select: none; /* Предотвращаем выделение при перетаскивании */
 }
 
 .img {
     object-fit: cover;
-    border-radius: 8px;
+    /*border-radius: 8px;*/
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 768px) {

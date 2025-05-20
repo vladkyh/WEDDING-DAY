@@ -478,6 +478,26 @@ display: flex;
 
 
 /* Добавьте это в конец вашего файла styles.module.css */
+.pis_qwe {
+    animation-name: treast;
+    animation-duration: 0.8s;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    position: relative;
+}
+
+@keyframes treast {
+    0% {
+        opacity: 1;
+        bottom: -200%;
+    }
+    100% {
+        opacity: 1;
+        bottom: -100%;
+    }
+}
 
 /* Медиазапросы для адаптации под мобильные устройства */
 @media (max-width: 1024px) {
