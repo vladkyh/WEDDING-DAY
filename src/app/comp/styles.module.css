@@ -1,37 +1,36 @@
 .container {
     width: 100%;
-    overflow: hidden; /* Скрываем всё, что выходит за границы */
+    overflow: hidden;
     position: relative;
+    margin: 20px 0;
 }
 
 .ul {
     display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    height: 480px;
-    animation: scroll 50s linear infinite; /* Анимация прокрутки */
-    width: max-content; /* Ширина определяется содержимым */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Для плавного скролла на iOS */
+    scrollbar-width: none; /* Скрываем скроллбар в Firefox */
+}
+
+.ul::-webkit-scrollbar {
+    display: none; /* Скрываем скроллбар в Chrome/Safari */
 }
 
 .li {
+    flex: 0 0 auto;
+    margin-right: 15px;
     height: 480px;
-    position: relative;
-    min-width: 180px;
+    user-select: none; /* Предотвращаем выделение при перетаскивании */
 }
 
 .img {
-    object-fit: contain;
-    height: 100%;
-    width: auto;
-}
-
-@keyframes scroll {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-50%); /* Сдвигаем на половину длины дублированного списка */
-    }
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 @media (max-width: 768px) {
     .li{

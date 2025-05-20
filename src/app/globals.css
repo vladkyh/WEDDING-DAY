@@ -16,8 +16,8 @@
 @font-face {
   font-family: 'NT Somic';
   font-display: auto;
-  src: url('./ntr.ttf') format('truetype'), /* указываем путь к файлу шрифта в папке public */
-  url('./ntr.ttf') format('truetype');
+  src: url('./NT Somic-VF.ttf') format('truetype'), /* указываем путь к файлу шрифта в папке public */
+  url('./NT Somic-VF.ttf') format('truetype');
   /* Дополнительные стили и настройки шрифта (например, font-weight, font-style и др.) */
 }
 
