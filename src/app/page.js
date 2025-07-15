@@ -253,7 +253,7 @@ export default function Home() {
                                 Сбор гостей
                             </h3>
                             <h1 className={styles.footer_time}>
-                                15:00-16:00
+                                16:00-17:00
                             </h1>
                         </div>
                     </AnimatedElement>
